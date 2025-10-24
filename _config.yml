@@ -9,3 +9,4 @@ baseurl: ""
 email: yxu11@outlook.com
 
 tabs: true
+theme: jekyll-theme-chirpy
