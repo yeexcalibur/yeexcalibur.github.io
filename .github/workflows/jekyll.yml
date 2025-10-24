@@ -1,4 +1,4 @@
-name: Build and Deploy Jekyll with Chirpy
+name: Build and Deploy Jekyll Chirpy (Auto)
 
 on:
   push:
@@ -19,23 +19,24 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.3'
-          bundler-cache: true
+          bundler-cache: false
 
-      - name: Install dependencies
+      - name: Clean & install dependencies
         run: |
-          gem install jekyll bundler
-          bundle add jekyll-theme-chirpy
+          gem install bundler
+          bundle init
+          echo 'gem "jekyll-theme-chirpy", "~> 7.0"' >> Gemfile
+          echo 'gem "jekyll", "~> 4.3"' >> Gemfile
+          echo 'gem "webrick"' >> Gemfile
           bundle install
-
-      - name: Build Jekyll site
-        run: bundle exec jekyll build --trace
+          bundle exec jekyll build --trace
 
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
