@@ -1,4 +1,4 @@
-name: Build and Deploy Jekyll (Simple)
+name: Build and Deploy Jekyll with Chirpy
 
 on:
   push:
@@ -17,21 +17,27 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Configure Pages
-        uses: actions/configure-pages@v5
-
-      # 👉 官方的一键 Jekyll 构建器，自动处理 Ruby/依赖
-      - name: Build with Jekyll
-        uses: actions/jekyll-build-pages@v1
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
         with:
-          source: ./
-          destination: ./_site
+          ruby-version: '3.3'
+          bundler-cache: true
 
-      - name: Upload artifact
+      - name: Install dependencies
+        run: |
+          gem install jekyll bundler
+          bundle add jekyll-theme-chirpy
+          bundle install
+
+      - name: Build Jekyll site
+        run: bundle exec jekyll build --trace
+
+      - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./_site
@@ -42,6 +48,7 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
