@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Articles
-permalink: /articles/
+icon: fas fa-pen-nib
+order: 3
 ---
 一些短文与研究札记。
