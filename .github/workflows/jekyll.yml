@@ -1,4 +1,4 @@
-name: Build and Deploy Jekyll
+name: Build and Deploy Jekyll (Simple)
 
 on:
   push:
@@ -21,17 +21,15 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: "3.3"
-          bundler-cache: true
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
 
-      - name: Install dependencies
-        run: bundle install --jobs 4 --retry 3
-
+      # 👉 官方的一键 Jekyll 构建器，自动处理 Ruby/依赖
       - name: Build with Jekyll
-        run: bundle exec jekyll build --baseurl ""
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
