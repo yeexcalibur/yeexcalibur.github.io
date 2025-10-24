@@ -2,8 +2,10 @@ lang: zh-CN
 timezone: Asia/Singapore
 title: "Yee Hsu (Yi Xu) | Architect & Explorer"
 description: >-
-  Portfolio of architecture, urban renewal, and socially engaged design. Selected works, ongoing projects (animal rescue), and notes.
+  Portfolio of architecture, urban renewal, and socially engaged design.
 theme_mode: light
 url: https://yeexcalibur.github.io
 baseurl: ""
 email: yxu11@outlook.com
+
+tabs: true
