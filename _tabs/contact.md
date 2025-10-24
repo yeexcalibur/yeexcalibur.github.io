@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Contact
-permalink: /contact/
+icon: fas fa-envelope
+order: 5
 ---
 - Email: yxu11@outlook.com
