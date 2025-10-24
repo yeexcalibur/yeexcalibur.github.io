@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Ongoing
-permalink: /ongoing/
+icon: fas fa-seedling
+order: 2
 ---
-- Animal Rescue（动物救助）  
+- Animal Rescue（动物救助）
 - AI × Architecture（研究方向）
