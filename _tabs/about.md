@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /about/
+icon: fas fa-user
+order: 4
 ---
 **Yee Hsu (Yi Xu)** — Architect & Explorer.
