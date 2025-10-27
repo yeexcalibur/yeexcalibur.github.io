@@ -4,6 +4,10 @@ collections:
   tabs:
     output: true
     permalink: /tabs/:title/
+  projects:            # ← 新增
+    output: true
+    permalink: /projects/:name/
+
 
 plugins:
   - jekyll-seo-tag
