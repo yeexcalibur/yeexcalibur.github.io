@@ -1,4 +1,4 @@
-name: Build and Deploy Jekyll Chirpy
+name: Build and Deploy Jekyll (Chirpy Minimal)
 
 on:
   push:
@@ -17,7 +17,6 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -25,20 +24,18 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.3'
-          bundler-cache: false
+          ruby-version: "3.3"
+          bundler-cache: true   # 自动 bundle install + 缓存
 
-      - name: Install and Build
-        run: |
-          gem install bundler
-          bundle config set path 'vendor/bundle'
-          bundle install
-          bundle exec jekyll build --trace
+      - name: Build site
+        env:
+          JEKYLL_ENV: production
+        run: bundle exec jekyll build --trace
 
-      - name: Upload site artifact
+      - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./_site
+          path: _site
 
   deploy:
     needs: build
@@ -46,8 +43,6 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-
     steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
+      - id: deployment
         uses: actions/deploy-pages@v4
