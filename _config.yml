@@ -24,3 +24,8 @@ url: "https://yeexcalibur.github.io"
 baseurl: ""
 tabs: true
 email: yxu11@outlook.com
+
+# Load custom head styles (for warm tone accent)
+head:
+  custom: /_includes/head/custom.html
+
