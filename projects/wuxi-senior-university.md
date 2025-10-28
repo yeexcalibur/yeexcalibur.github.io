@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: yee-page
 title: Wuxi Senior University Renovation | 无锡市老年大学改造提升
 permalink: /projects/wuxi-senior-university/
 ---
