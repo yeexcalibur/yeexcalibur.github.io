@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: yee-page
 title: Ongoing
 icon: fas fa-seedling
 order: 2
