@@ -1,6 +1,7 @@
 ---
 layout: home
 ---
+{% include yee-styles.html %}
 
 > Architecture × Urban Renewal × Social Action
 
