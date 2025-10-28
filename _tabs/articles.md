@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: yee-page
 title: Articles
 icon: fas fa-pen-nib
 order: 3
