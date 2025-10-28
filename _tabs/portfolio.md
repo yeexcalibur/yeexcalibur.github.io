@@ -15,7 +15,7 @@ order: 1
     <div class="muted">低碳策略 · 园区更新</div>
   </div>
   <div class="card">
-    <h3><a href="/projects/caozhangli-urban-renewal/">Caozhangli Urban Renewal</a></h3>
+    <h3><a href="/projects/country-urban-renewal/">Country Urban Renewal</a></h3>
     <div class="muted">青绘乡村 × 本地文化</div>
   </div>
 </div>
