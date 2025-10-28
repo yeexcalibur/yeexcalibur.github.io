@@ -1,0 +1,42 @@
+<style>
+  :root{
+    --yee-primary:#B77466;  /* 主色：温柔棕粉 */
+    --yee-light:#FFE1AF;    /* 浅色：奶杏 */
+    --yee-soft:#E2B59A;     /* 过渡米橙 */
+  }
+
+  /* 链接与标题 hover */
+  a, .post-preview .post-title a:hover{
+    color:var(--yee-primary)!important;
+    border-color:var(--yee-primary)!important;
+  }
+
+  /* 按钮、标签 */
+  .btn, .btn-primary, .post-tag{
+    background:var(--yee-primary)!important;
+    border-color:var(--yee-primary)!important;
+    color:#fff!important;
+  }
+  .btn:hover, .btn:focus{
+    background:var(--yee-soft)!important;
+    border-color:var(--yee-soft)!important;
+    color:#fff!important;
+  }
+
+  /* 引用块与卡片 */
+  .post-content blockquote{
+    border-left:4px solid var(--yee-primary);
+    background:var(--yee-light);
+  }
+  .card{
+    border:1px solid var(--yee-soft);
+    border-radius:12px;
+    padding:14px;
+    background:#fffaf5;
+    transition:all .3s ease;
+  }
+  .card:hover{ box-shadow:0 4px 10px rgba(183,116,102,.2); transform:translateY(-3px); }
+
+  /* 侧栏/页脚柔和底色（如果你的布局显示这些区域） */
+  #sidebar, .footer{ background-color:#fffaf5!important; }
+</style>
