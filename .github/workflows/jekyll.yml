@@ -27,10 +27,14 @@ jobs:
           ruby-version: "3.3"
           bundler-cache: true   # 自动 bundle install + 缓存
 
+      - name: Doctor
+        run: bundle exec jekyll doctor || true
+
       - name: Build site
         env:
           JEKYLL_ENV: production
-        run: bundle exec jekyll build --trace
+        run: bundle exec jekyll build --trace --verbose
+
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
