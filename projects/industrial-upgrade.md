@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: yee-page
 title: Industrial Buildings Upgrade | 工业建筑更新与低碳策略
 permalink: /projects/industrial-upgrade/
 ---
