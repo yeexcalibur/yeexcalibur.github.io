@@ -1,10 +1,9 @@
 ---
-layout: page
+layout: yee-page
 title: Portfolio
 icon: fas fa-folder-open
 order: 1
 ---
-{% include yee-styles.html %}
 
 <div class="grid">
   <div class="card">
