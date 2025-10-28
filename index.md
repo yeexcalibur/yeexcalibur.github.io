@@ -1,8 +1,8 @@
 ---
-layout: home
+layout: yee-page
+title: Home
+permalink: /
 ---
-{% include yee-styles.html %}
-
 > Architecture × Urban Renewal × Social Action
 
 你好，我是 **Yee Hsu (Yi Xu)**。这里是我的作品与行动的集合：建筑与城市更新项目、适老化与认知友好空间研究，以及我正在进行的动物救助工作。
