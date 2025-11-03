@@ -1,6 +1,6 @@
 ---
 layout: yee-page
-title: Sketches & Notes
+title: Handwork
 icon: fas fa-pen-nib
 order: 3
 ---
@@ -15,11 +15,11 @@ pieces that capture moments of thought and handwork.
 
 <div class="grid">
   <div class="card">
-    <img src="/assets/sketches/01.jpg" style="width:100%;border-radius:12px">
+    <img src="/assets/handwork/01.jpg" style="width:100%;border-radius:12px">
     <div class="muted">Light study · 2021</div>
   </div>
   <div class="card">
-    <img src="/assets/sketches/02.jpg" style="width:100%;border-radius:12px">
+    <img src="/assets/handwork/02.jpg" style="width:100%;border-radius:12px">
     <div class="muted">Clay massing model · 2018</div>
   </div>
 </div>
