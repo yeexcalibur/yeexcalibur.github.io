@@ -15,11 +15,19 @@ pieces that capture moments of thought and handwork.
 
 <div class="grid">
   <div class="card">
-    <img src="/assets/handwork/01.jpg" style="width:100%;border-radius:12px">
-    <div class="muted">Light study · 2021</div>
+    <img src="/assets/handwork/01.png" style="width:100%;border-radius:12px">
+    <div class="muted">Sketch· 2015</div>
   </div>
   <div class="card">
-    <img src="/assets/handwork/02.jpg" style="width:100%;border-radius:12px">
-    <div class="muted">Clay massing model · 2018</div>
+    <img src="/assets/handwork/02.png" style="width:100%;border-radius:12px">
+    <div class="muted">Sketch· 2015</div>
+  </div>
+  <div class="card">
+    <img src="/assets/handwork/03.png" style="width:100%;border-radius:12px">
+    <div class="muted">Sketch· 2016</div>  
+  </div>
+  <div class="card">
+    <img src="/assets/handwork/04.jpg" style="width:100%;border-radius:12px">
+    <div class="muted">Clay massing model · 2017</div>
   </div>
 </div>
