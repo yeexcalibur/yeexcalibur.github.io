@@ -1,6 +1,6 @@
 ---
 layout: yee-page
-title: 1:1 Brick Joint Mock-up
+title: 1:1 Wooden pavillion build-up
 permalink: /handwork/mockup-wall/
 ---
 
