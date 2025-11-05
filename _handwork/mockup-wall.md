@@ -6,7 +6,7 @@ permalink: /handwork/mockup-wall/
 
 ### 1:1 Wooden pavillion build-up· 木质亭子· 2013 
 
-A full-scale test of wooden bonding and joint pavillion detailing, exploring texture, weight, and craft precision.  
+A full-scale test of wooden bonding and joint pavillion detailing, exploring texture, weight, and craft precision.  <br>
 1:1 比例的木质亭子节点实验，关注质感、重量与工艺精度。
 
 <div class="grid">
