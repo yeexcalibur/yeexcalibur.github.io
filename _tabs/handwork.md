@@ -41,22 +41,20 @@ order: 3
 ---
 
 ### Survey & 1:1 Build / 测绘与实体建造
-一些过去的观察与原型制作。
+强调“做中思考”的观察与原型制作。
 
 <div class="grid">
   <div class="card">
-    <a href="/assets/handwork/surveys/01.jpg" target="_blank">
-      <img src="/assets/handwork/surveys/01.jpg" alt="Survey drawing" style="width:100%;border-radius:12px;object-fit:cover">
+    <a href="/handwork/survey-house/">
+      <img src="/assets/handwork/survey-house/1.png" alt="Survey project" style="width:100%;border-radius:12px;object-fit:cover">
     </a>
-    <div class="muted" style="margin-top:6px">Survey drawing · Suzhou alley house</div>
+    <div class="muted" style="margin-top:6px">Survey · Suzhou alley house· 2014</div>
   </div>
 
   <div class="card">
-    <a href="/assets/handwork/surveys/02.jpg" target="_blank">
-      <img src="/assets/handwork/surveys/02.jpg" alt="1:1 mock-up" style="width:100%;border-radius:12px;object-fit:cover">
+    <a href="/handwork/mockup-wall/">
+      <img src="/assets/handwork/mockup-wall/09.png" alt="1:1 mock-up" style="width:100%;border-radius:12px;object-fit:cover">
     </a>
-    <div class="muted" style="margin-top:6px">1:1 brick joint mock-up · 2018</div>
+    <div class="muted" style="margin-top:6px">1:1 Brick joint mock-up · 2018</div>
   </div>
-
-  <!-- 需要更多就复制这段 card 块 -->
 </div>
