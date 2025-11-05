@@ -2,4 +2,10 @@
 layout: page
 ---
 {% include yee-styles.html %}
+
+{% if page.url contains '/handwork/' %}
+  {% include crumbs.html %}
+  <p><a class="btn" href="/tabs/Handwork/">← Back to Handwork</a></p>
+{% endif %}
+
 {{ content }}
