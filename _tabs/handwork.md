@@ -45,14 +45,14 @@ order: 3
 
 <div class="grid">
   <div class="card">
-    <a href="/_handwork/survey-house/">
+    <a href="/handwork/survey-house/">
       <img src="/assets/handwork/survey-house/1.png" alt="Survey project" style="width:100%;border-radius:12px;object-fit:cover">
     </a>
     <div class="muted" style="margin-top:6px">Survey · Suzhou alley house· 2014</div>
   </div>
 
   <div class="card">
-    <a href="/_handwork/mockup-wall/">
+    <a href="/handwork/mockup-wall/">
       <img src="/assets/handwork/09.png" alt="1:1 mock-up" style="width:100%;border-radius:12px;object-fit:cover">
     </a>
     <div class="muted" style="margin-top:6px">1:1 Brick joint mock-up · 2018</div>
