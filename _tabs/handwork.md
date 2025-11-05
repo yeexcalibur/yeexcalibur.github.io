@@ -21,6 +21,7 @@ order: 3
       <img src="/assets/handwork/02.png" alt="Model 01" style="width:100%;border-radius:12px;object-fit:cover">
     </a>
     <div class="muted" style="margin-top:6px">Sketch · 2016</div>
+  </div>
 
  <div class="card">
     <a href="/assets/handwork/03.png" target="_blank">
