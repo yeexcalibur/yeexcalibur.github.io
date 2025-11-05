@@ -10,7 +10,9 @@ Regarding the architectural surveying and mapping of Daofu County in Ganzi Tibet
 关于甘孜道孚的建筑测绘，记录其抗震木结构节点（崩科&崩勒）及建筑特点。
 
 <div class="grid">
-  <div class="card"><img src="/assets/handwork/survey-house/01.jpg" alt="survey 1" style="width:100%;border-radius:12px"></div>
-  <div class="card"><img src="/assets/handwork/survey-house/02.jpg" alt="survey 2" style="width:100%;border-radius:12px"></div>
-  <div class="card"><img src="/assets/handwork/survey-house/03.jpg" alt="survey 3" style="width:100%;border-radius:12px"></div>
+  <div class="card"><img src="/assets/handwork/survey-house/05.png" alt="survey 1" style="width:100%;border-radius:12px"></div>
+  <div class="card"><img src="/assets/handwork/survey-house/06.png" alt="survey 2" style="width:100%;border-radius:12px"></div>
+  <div class="card"><img src="/assets/handwork/survey-house/07.png" alt="survey 3" style="width:100%;border-radius:12px"></div>
+  <div class="card"><img src="/assets/handwork/survey-house/08.png" alt="survey 3" style="width:100%;border-radius:12px"></div>
+  <div class="card"><img src="/assets/handwork/survey-house/09.png" alt="survey 3" style="width:100%;border-radius:12px"></div>
 </div>
