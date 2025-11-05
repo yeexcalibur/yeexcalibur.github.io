@@ -1,33 +1,33 @@
----
-layout: yee-page
-title: Handwork
-icon: fas fa-pen-nib
-order: 3
----
-
-A collection of sketches, models, and written notes —  
-pieces that capture moments of thought and handwork.
-
-一些随手的速写、模型与文字片段，  
-记录建筑思考的片刻与过程。
-
----
+### Sketch & Model / 素描与模型
+一些过去的素描与模型。
 
 <div class="grid">
   <div class="card">
-    <img src="/assets/handwork/01.png" style="width:100%;border-radius:12px">
-    <div class="muted">Sketch· 2015</div>
+    <a href="/assets/handwork/01.png" target="_blank">
+      <img src="/assets/handwork/01.png" alt="Sketch 01" style="width:100%;border-radius:12px;object-fit:cover">
+    </a>
+    <div class="muted" style="margin-top:6px">Sketch · 2015</div>
   </div>
+
   <div class="card">
-    <img src="/assets/handwork/02.png" style="width:100%;border-radius:12px">
-    <div class="muted">Sketch· 2015</div>
+    <a href="/assets/handwork/02.png" target="_blank">
+      <img src="/assets/handwork/02.png" alt="Model 01" style="width:100%;border-radius:12px;object-fit:cover">
+    </a>
+    <div class="muted" style="margin-top:6px">Sketch · 2016</div>
+
+ <div class="card">
+    <a href="/assets/handwork/03.png" target="_blank">
+      <img src="/assets/handwork/03.png" alt="Model 01" style="width:100%;border-radius:12px;object-fit:cover">
+    </a>
+    <div class="muted" style="margin-top:6px">Sketch · 2017</div>
   </div>
+  
   <div class="card">
-    <img src="/assets/handwork/03.png" style="width:100%;border-radius:12px">
-    <div class="muted">Sketch· 2016</div>  
-  </div>
-  <div class="card">
-    <img src="/assets/handwork/04.jpg" style="width:100%;border-radius:12px">
-    <div class="muted">Clay massing model · 2017</div>
+    <a href="/assets/handwork/04.jpg" target="_blank">
+      <img src="/assets/handwork/04.jpg" alt="Model 01" style="width:100%;border-radius:12px;object-fit:cover">
+    </a>
+    <div class="muted" style="margin-top:6px">Study model · 2017</div>
   </div>
 </div>
+
+---
