@@ -44,4 +44,14 @@
   .yee-crumbs a{color:var(--yee-primary);text-decoration:none;border-bottom:1px solid transparent}
   .yee-crumbs a:hover{border-bottom:1px solid var(--yee-primary)}
 
+  /* 强制封面图为横长方形，宽高比16:9 */
+.portfolio-cover img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;  /* 强制设置长方形 */
+  object-fit: cover;     /* 自动裁剪填充，确保图片被完美覆盖 */
+  border-radius: 12px;
+}
+
+
 </style>
