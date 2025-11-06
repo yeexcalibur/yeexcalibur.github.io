@@ -3,9 +3,9 @@ layout: page
 ---
 {% include yee-styles.html %}
 
-{% if page.url contains '/handwork/' and page.url != '/tabs/handwork/' and page.url != '/tabs/Handwork/' %}
+{% if page.url contains '/handwork/' and page.url != '/tabs/handwork/' %}
   {% include crumbs.html %}
-  <p><a class="btn" href="/tabs/Handwork/">← Back to Handwork</a></p>
+  <p><a class="btn" href="{{ '/tabs/handwork/' | relative_url }}">← Back to Handwork</a></p>
 {% endif %}
 
 
