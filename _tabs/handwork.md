@@ -3,6 +3,7 @@ layout: yee-page
 title: Handwork
 icon: fas fa-pen-nib
 order: 3
+permalink: /tabs/handwork/
 ---
 
 ### Sketch & Model / 素描与模型
