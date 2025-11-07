@@ -19,7 +19,7 @@ order: 1
 
 <div class="grid">
   <div class="card">
-    <a href="/projects/Wuxi Port Customs Supervision Warehouse and Logistics Facility Project/">
+    <a href="/projects/industrial-upgrade/">
       <div class="portfolio-cover">
         <img src="/assets/portfolio/industrial/1.png" alt="Wuxi Port Customs Supervision Warehouse and Logistics Facility Project">
       </div>
