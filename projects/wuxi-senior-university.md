@@ -27,25 +27,25 @@ Listed among the 2025 People’s Livelihood Projects.
 ### Gallery / 图集
 <div class="grid">
   <div class="card">
-    <img src="/assets/portfolio/wuxi/01.png" alt="View 1" style="width:100%;border-radius:12px">
+    <img src="/assets/portfolio/wuxi/1.png" alt="View 1" style="width:100%;border-radius:12px">
   </div>
   <div class="card">
-    <img src="/assets/portfolio/wuxi/02.png" alt="View 2" style="width:100%;border-radius:12px">
+    <img src="/assets/portfolio/wuxi/2.png" alt="View 2" style="width:100%;border-radius:12px">
   </div>
   <div class="card">
-    <img src="/assets/portfolio/wuxi/03.png" alt="View 3" style="width:100%;border-radius:12px">
+    <img src="/assets/portfolio/wuxi/3.png" alt="View 3" style="width:100%;border-radius:12px">
   </div>
     <div class="card">
-    <img src="/assets/portfolio/wuxi/04.png" alt="View 4" style="width:100%;border-radius:12px">
+    <img src="/assets/portfolio/wuxi/4.png" alt="View 4" style="width:100%;border-radius:12px">
   </div>
     <div class="card">
-    <img src="/assets/portfolio/wuxi/05.jpg" alt="View 5" style="width:100%;border-radius:12px">
+    <img src="/assets/portfolio/wuxi/5.jpg" alt="View 5" style="width:100%;border-radius:12px">
   </div>
     <div class="card">
-    <img src="/assets/portfolio/wuxi/06.png" alt="View 6" style="width:100%;border-radius:12px">
+    <img src="/assets/portfolio/wuxi/6.png" alt="View 6" style="width:100%;border-radius:12px">
   </div>
     <div class="card">
-    <img src="/assets/portfolio/wuxi/07.png" alt="View 7" style="width:100%;border-radius:12px">
+    <img src="/assets/portfolio/wuxi/7.png" alt="View 7" style="width:100%;border-radius:12px">
   </div>
 </div>
 
