@@ -15,7 +15,6 @@ order: 1
     <h3><a href="/projects/wuxi-senior-university/">Wuxi Senior University Renovation</a></h3>
     <div class="muted">无锡市老年大学改造提升 · 2023–2025</div>
   </div>
-</div>
 
 <div class="grid">
   <div class="card">
@@ -39,7 +38,7 @@ order: 1
     <div class="muted">上海陕煤高新技术孵化生产基地项目· 2022–2023</div>
   </div>
 
-     <div class="grid">
+  <div class="grid">
   <div class="card">
     <a href="/projects/others/">
       <div class="portfolio-cover">
@@ -48,4 +47,5 @@ order: 1
     </a>
     <h3><a href="/projects/others/">Other Project</a></h3>
     <div class="muted">其它项目· 2019–2025</div>
+ </div>
 </div>
