@@ -24,7 +24,7 @@ order: 1
         <img src="/assets/portfolio/industrial/1.png" alt="Wuxi Port Customs Supervision Warehouse and Logistics Facility Project">
       </div>
     </a>
-    <h3><a href="/projects/industrial/">Wuxi Port Customs Supervision Warehouse and Logistics Facility Project</a></h3>
+    <h3><a href="/projects/industrial-upgrade/">Wuxi Port Customs Supervision Warehouse and Logistics Facility Project</a></h3>
     <div class="muted">无锡港二类口岸海关监管仓库、物流仓储及集装箱堆场工程· 2024–2026</div>
   </div>
 </div>
