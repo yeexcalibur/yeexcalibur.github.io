@@ -9,7 +9,7 @@ permalink: /projects/wuxi-senior-university/
 **Year**: 2023–2025  
 
 ### Overview
-Pilot renovation shifting from barrier-free basics to **cognitive activation** via spatial and programmatic design.
+Pilot renovation shifting from barrier-free basics to **cognitive activation** via spatial and programmatic design.<br>
 **Listed among the 2025 People’s Livelihood Projects.**
 
 ### Highlights
