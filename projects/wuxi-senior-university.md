@@ -10,7 +10,7 @@ permalink: /projects/wuxi-senior-university/
 
 ### Overview
 Pilot renovation shifting from barrier-free basics to **cognitive activation** via spatial and programmatic design.
-Listed among the 2025 People’s Livelihood Projects.
+**Listed among the 2025 People’s Livelihood Projects.**
 
 ### Highlights
 - 门头与立面更新，强化识别与归属感 Renovation of doorways and facades to enhance recognition and a sense of belonging 
