@@ -31,7 +31,7 @@ order: 1
   <div class="card">
     <a href="/projects/sh-hightech/">
       <div class="portfolio-cover">
-        <img src="/assets/portfolio/shanghai/1.png" alt="Shanghai Shanmei High-Tech Incubation and Production Base">
+        <img src="/assets/portfolio/shanghai/1.jpg" alt="Shanghai Shanmei High-Tech Incubation and Production Base">
       </div>
     </a>
     <h3><a href="/projects/sh-hightech/">Shanghai Shanmei High-Tech Incubation and Production Base</a></h3>
