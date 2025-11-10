@@ -42,10 +42,10 @@ order: 1
   <div class="card">
     <a href="/projects/others/">
       <div class="portfolio-cover">
-        <img src="/assets/portfolio/other/1.png" alt="Other Project">
+        <img src="/assets/portfolio/other/1.png" alt="Other Projects">
       </div>
     </a>
-    <h3><a href="/projects/others/">Other Project</a></h3>
+    <h3><a href="/projects/others/">Other Projects</a></h3>
     <div class="muted">其它项目· 2019–2025</div>
  </div>
 </div>
