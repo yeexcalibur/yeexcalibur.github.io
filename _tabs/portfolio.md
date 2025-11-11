@@ -42,7 +42,7 @@ order: 1
   <div class="card">
     <a href="/projects/others/">
       <div class="portfolio-cover">
-        <img src="/assets/portfolio/other/1.png" alt="Other Projects">
+        <img src="/assets/portfolio/other/4.jpg" alt="Other Projects">
       </div>
     </a>
     <h3><a href="/projects/others/">Other Projects</a></h3>
