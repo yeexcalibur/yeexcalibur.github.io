@@ -79,4 +79,28 @@
 /* 表格行的小交互（可要可不要） */
 .op-table tbody tr:hover{ background:#fffaf5; }
 
+/* 让某一段内容“出血”到整屏宽（跨过右侧空白/侧栏） */
+.op-bleed{
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  width: 100vw;
+  padding: 0 16px;     /* 两侧保留一点内边距避免贴边 */
+  box-sizing: border-box;
+}
+
+/* 你的表格自适应 & 缩略图统一尺寸（保留原有） */
+.op-wrap{overflow-x:auto; margin-top:8px}
+.op-table{width:100%; border-collapse:collapse; min-width:760px}
+.op-table th, .op-table td{border:1px solid #e5e7eb; padding:10px; vertical-align:middle}
+.op-table thead th{background:#fffaf5; font-weight:600; text-align:center}
+.op-table thead .op-phase{background:#FFE1AF}
+.op-center{text-align:center}
+.op-col-thumb{width:160px}
+.op-thumb{display:block; width:150px; aspect-ratio:16/9; overflow:hidden; border-radius:10px; border:1px solid var(--yee-soft); background:#fff}
+.op-thumb img{width:100%; height:100%; object-fit:cover; display:block}
+@media (max-width: 720px){ .op-col-thumb{width:120px} .op-thumb{width:120px} .op-table th,.op-table td{padding:8px} }
+
 </style>
