@@ -7,7 +7,7 @@ permalink: /projects/others/
 <p>这里摆放我阶段性参与的可公开的部分典型项目：以简明方式记录背景与我在各阶段的参与情况。点击首列图片可查看大图。<br>
 Listed here are some typical projects I have participated in phasedly that are allowed to be made public, with a simple record of their backgrounds and my involvement in each phase. Click the images in the first column to view larger versions.<br></p>
 
-<div class="op-bleed">
+<div class="op-bleed-right">
   <div class="op-wrap" markdown="0">
     <table class="op-table">
   <thead>
