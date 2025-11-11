@@ -79,25 +79,40 @@
 /* 表格行的小交互（可要可不要） */
 .op-table tbody tr:hover{ background:#fffaf5; }
 
-/* 只向右侧出血，保留左侧导航 */
-.op-bleed-right{
-  width: 100%;
-/* 小屏保持正常宽度；大屏把内容向右扩展，吃掉右侧空白 */
+/* 表格仅向右扩展，左侧导航栏保持原位 */
+.op-bleed-right {
+  position: relative;
+  width: calc(100% + 300px);   /* 向右延展大约300px，可视化调整 */
+  left: 0;                     /* 不动左侧 */
+  margin-right: -300px;        /* 吃掉右边空白 */
+  box-sizing: border-box;
 }
 
-@media (min-width: 992px){
-  .op-bleed-right{
-    margin-right: -280px;   /* 右侧扩展量 ≈ 侧栏宽度 */
-    padding-right: 16px;    /* 留出一点内边距 */
-    box-sizing: border-box;
+/* 在不同屏幕宽度下自动调整右侧扩展量 */
+@media (min-width: 1200px) {
+  .op-bleed-right {
+    width: calc(100% + 340px);
+    margin-right: -340px;
+  }
+}
+@media (max-width: 992px) {
+  .op-bleed-right {
+    width: 100%;
+    margin-right: 0;
   }
 }
 
-/* 超大屏略多给一点 */
-@media (min-width: 1200px){
-  .op-bleed-right{ margin-right: -320px; }
-}
+/* 你的表格自适应 & 缩略图统一尺寸（保留原有） */
+.op-wrap{overflow-x:auto; margin-top:8px}
+.op-table{width:100%; border-collapse:collapse; min-width:760px}
+.op-table th, .op-table td{border:1px solid #e5e7eb; padding:10px; vertical-align:middle}
+.op-table thead th{background:#fffaf5; font-weight:600; text-align:center}
+.op-table thead .op-phase{background:#FFE1AF}
+.op-center{text-align:center}
+.op-col-thumb{width:160px}
+.op-thumb{display:block; width:150px; aspect-ratio:16/9; overflow:hidden; border-radius:10px; border:1px solid var(--yee-soft); background:#fff}
+.op-thumb img{width:100%; height:100%; object-fit:cover; display:block}
+@media (max-width: 720px){ .op-col-thumb{width:120px} .op-thumb{width:120px} .op-table th,.op-table td{padding:8px} }
 
-/* 其余表格/缩略图样式保留你现有那套即可 */
-
+  
 </style>
