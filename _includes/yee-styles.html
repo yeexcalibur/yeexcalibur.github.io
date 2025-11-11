@@ -114,5 +114,28 @@
 .op-thumb img{width:100%; height:100%; object-fit:cover; display:block}
 @media (max-width: 720px){ .op-col-thumb{width:120px} .op-thumb{width:120px} .op-table th,.op-table td{padding:8px} }
 
+/* 通用16:9缩略图（与 Other 表格缩略图一致） */
+.thumb-16x9{
+  display:block;
+  width:150px;            /* 小而统一 */
+  aspect-ratio:16/9;      /* 横向长方形 */
+  overflow:hidden;
+  border-radius:10px;
+  border:1px solid var(--yee-soft);
+  background:#fff;
+}
+.thumb-16x9 img{
+  width:100%; height:100%; object-fit:cover; display:block;
+}
+
+/* Handwork 的“紧凑布局”版本 */
+.handwork-compact{ 
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(160px,1fr));
+  gap:16px;
+}
+.handwork-compact .handwork-tile{ width:150px; aspect-ratio:16/9; margin:0 auto; border-radius:12px; overflow:hidden; border:1px solid var(--yee-soft); background:#fffaf5; }
+.handwork-compact .handwork-tile img{ width:100%; height:100%; object-fit:cover; display:block; }
+.handwork-compact .handwork-caption{ font-size:.9rem; margin-top:6px; text-align:center; color:#555; }
   
 </style>
