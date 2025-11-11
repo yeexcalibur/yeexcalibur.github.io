@@ -77,4 +77,22 @@
 /* 表格行的小交互（可要可不要） */
 .op-table tbody tr:hover{ background:#fffaf5; }
 
+/* 第一列（缩略图）固定宽度，保证整列统一尺寸 */
+.op-col-thumb{width:160px}
+
+/* 缩略图统一尺寸：小而整齐，点开看大图 */
+.op-thumb{
+  display:block;
+  width:150px;              /* 统一宽度 */
+  aspect-ratio:16/9;        /* 统一成横向长方形 */
+  overflow:hidden;
+  border-radius:10px;
+  border:1px solid var(--yee-soft);
+  background:#fff;
+}
+.op-thumb img{
+  width:100%; height:100%;
+  object-fit:cover; display:block;
+}
+
 </style>
