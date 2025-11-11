@@ -10,25 +10,25 @@ Listed here are some typical projects I have participated in phasedly that are a
 <div class="op-wrap">
 <table class="op-table">
   <thead>
-    <tr>
-      <th rowspan="2" style="width:280px;">Rendering pic</th>
-      <th rowspan="2">Background</th>
-      <th colspan="4" class="op-phase">Phase</th>
-    </tr>
-    <tr>
-      <th class="op-center">Schematic design & Consulting</th>
-      <th class="op-center">Construction drawings</th>
-      <th class="op-center">BIM coordination</th>
-      <th class="op-center">Green building &amp; energy-saving</th>
-    </tr>
-  </thead>
+  <tr>
+    <th class="op-col-thumb" rowspan="2">rendering pic</th>
+    <th rowspan="2">background</th>
+    <th colspan="4" class="op-phase">phase</th>
+  </tr>
+  <tr>
+    <th class="op-center">schematic design</th>
+    <th class="op-center">construction drawings</th>
+    <th class="op-center">BIM coordination</th>
+    <th class="op-center">Green building &amp; energy-saving</th>
+  </tr>
+</thead>
   <tbody>
 
     <!-- 行 1 -->
     <tr>
       <td>
         <a href="/assets/portfolio/other/1.jpg" target="_blank" class="op-thumb">
-          <img src="/assets/portfolio/other/1.jpg" alt="Tianxi Terrace Forward Design with Revit">
+          <img src="/assets/portfolio/other/1.jpg" alt="Tianxi Terrace Forward Design with Revit"loading="lazy">
         </a>
       </td>
       <td>
@@ -46,7 +46,7 @@ Listed here are some typical projects I have participated in phasedly that are a
     <tr>
       <td>
         <a href="/assets/portfolio/other/2.jpg" target="_blank" class="op-thumb">
-          <img src="/assets/portfolio/other/2.jpg" alt="Baoji Panlong Sports Park">
+          <img src="/assets/portfolio/other/2.jpg" alt="Baoji Panlong Sports Park"loading="lazy">
         </a>
       </td>
       <td>
@@ -64,7 +64,7 @@ Listed here are some typical projects I have participated in phasedly that are a
     <tr>
       <td>
         <a href="/assets/portfolio/other/03.jpg" target="_blank" class="op-thumb">
-          <img src="/assets/portfolio/other/03.jpg" alt="Wuhu Normal University Performing Arts Center and Library">
+          <img src="/assets/portfolio/other/03.jpg" alt="Wuhu Normal University Performing Arts Center and Library"loading="lazy">
         </a>
       </td>
       <td>
@@ -82,7 +82,7 @@ Listed here are some typical projects I have participated in phasedly that are a
     <tr>
       <td>
         <a href="/assets/portfolio/other/2.jpg" target="_blank" class="op-thumb">
-          <img src="/assets/portfolio/other/2.jpg" alt="Zhaotong New Airport">
+          <img src="/assets/portfolio/other/2.jpg" alt="Zhaotong New Airport"loading="lazy">
         </a>
       </td>
       <td>
@@ -99,7 +99,7 @@ Listed here are some typical projects I have participated in phasedly that are a
     <tr>
       <td>
         <a href="/assets/portfolio/other/2.jpg" target="_blank" class="op-thumb">
-          <img src="/assets/portfolio/other/2.jpg" alt="Baoji City Future Complex">
+          <img src="/assets/portfolio/other/2.jpg" alt="Baoji City Future Complex"loading="lazy">
         </a>
       </td>
       <td>
@@ -116,7 +116,7 @@ Listed here are some typical projects I have participated in phasedly that are a
     <tr>
       <td>
         <a href="/assets/portfolio/other/2.jpg" target="_blank" class="op-thumb">
-          <img src="/assets/portfolio/other/2.jpg" alt="Ulaanbaatar Markta Business Building">
+          <img src="/assets/portfolio/other/2.jpg" alt="Ulaanbaatar Markta Business Building"loading="lazy">
         </a>
       </td>
       <td>
@@ -133,7 +133,7 @@ Listed here are some typical projects I have participated in phasedly that are a
     <tr>
       <td>
         <a href="/assets/portfolio/other/2.jpg" target="_blank" class="op-thumb">
-          <img src="/assets/portfolio/other/2.jpg" alt="Fufeng Art Center">
+          <img src="/assets/portfolio/other/2.jpg" alt="Fufeng Art Center"loading="lazy">
         </a>
       </td>
       <td>
@@ -150,7 +150,7 @@ Listed here are some typical projects I have participated in phasedly that are a
     <tr>
       <td>
         <a href="/assets/portfolio/other/2.jpg" target="_blank" class="op-thumb">
-          <img src="/assets/portfolio/other/2.jpg" alt="Baoji Panlong Pre-fabricated Residential Building">
+          <img src="/assets/portfolio/other/2.jpg" alt="Baoji Panlong Pre-fabricated Residential Building"loading="lazy">
         </a>
       </td>
       <td>
@@ -167,7 +167,7 @@ Listed here are some typical projects I have participated in phasedly that are a
     <tr>
       <td>
         <a href="/assets/portfolio/other/2.jpg" target="_blank" class="op-thumb">
-          <img src="/assets/portfolio/other/2.jpg" alt="Baosteel-Shanghai University Academy of Fine Arts Student Residence">
+          <img src="/assets/portfolio/other/2.jpg" alt="Baosteel-Shanghai University Academy of Fine Arts Student Residence"loading="lazy">
         </a>
       </td>
       <td>
@@ -184,7 +184,7 @@ Listed here are some typical projects I have participated in phasedly that are a
     <tr>
       <td>
         <a href="/assets/portfolio/other/2.jpg" target="_blank" class="op-thumb">
-          <img src="/assets/portfolio/other/2.jpg" alt="Mei County Grand Theater">
+          <img src="/assets/portfolio/other/2.jpg" alt="Mei County Grand Theater"loading="lazy">
         </a>
       </td>
       <td>
@@ -201,7 +201,7 @@ Listed here are some typical projects I have participated in phasedly that are a
     <tr>
       <td>
         <a href="/assets/portfolio/other/2.jpg" target="_blank" class="op-thumb">
-          <img src="/assets/portfolio/other/2.jpg" alt="Wuxi Yangguang Precision Machinery New Plant">
+          <img src="/assets/portfolio/other/2.jpg" alt="Wuxi Yangguang Precision Machinery New Plant"loading="lazy">
         </a>
       </td>
       <td>
@@ -218,7 +218,7 @@ Listed here are some typical projects I have participated in phasedly that are a
     <tr>
       <td>
         <a href="/assets/portfolio/other/2.jpg" target="_blank" class="op-thumb">
-          <img src="/assets/portfolio/other/2.jpg" alt="Suyu District Fire Command Center in Suqian">
+          <img src="/assets/portfolio/other/2.jpg" alt="Suyu District Fire Command Center in Suqian"loading="lazy">
         </a>
       </td>
       <td>
@@ -235,7 +235,7 @@ Listed here are some typical projects I have participated in phasedly that are a
     <tr>
       <td>
         <a href="/assets/portfolio/other/2.jpg" target="_blank" class="op-thumb">
-          <img src="/assets/portfolio/other/2.jpg" alt="Wuxi Xishan District Renewable Resources Comprehensive Operation Center">
+          <img src="/assets/portfolio/other/2.jpg" alt="Wuxi Xishan District Renewable Resources Comprehensive Operation Center"loading="lazy">
         </a>
       </td>
       <td>
