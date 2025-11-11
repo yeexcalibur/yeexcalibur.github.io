@@ -12,13 +12,13 @@ Listed here are some typical projects I have participated in phasedly that are a
     <table class="op-table">
   <thead>
     <tr>
-      <th class="op-col-thumb" rowspan="2">rendering pic</th>
-      <th rowspan="2">background</th>
-      <th colspan="4" class="op-phase">phase</th>
+      <th class="op-col-thumb" rowspan="2">Rendering pic</th>
+      <th rowspan="2">Background</th>
+      <th colspan="4" class="op-phase">Phase</th>
     </tr>
     <tr>
-      <th class="op-center">schematic design</th>
-      <th class="op-center">construction drawings</th>
+      <th class="op-center">Schematic design</th>
+      <th class="op-center">Construction drawings</th>
       <th class="op-center">BIM coordination</th>
       <th class="op-center">Green building &amp; energy-saving</th>
     </tr>
