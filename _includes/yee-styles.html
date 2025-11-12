@@ -226,29 +226,30 @@
   border-radius: 12px;   /* 需要圆角就留着，不要可删 */
 }
 
-/* 保证左侧侧栏的 icon 居中显示 */
+/* 只调整 site-title 中的内容居中 */
 #sidebar .site-title {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin-bottom: 1rem; /* 控制图标和下方文字的距离 */
+  justify-content: center; /* 垂直居中 */
+  align-items: center;     /* 水平居中 */
+  margin-bottom: 1rem;     /* 控制图标和文字的距离 */
 }
 
+/* 图标样式 */
 #sidebar .site-title img {
-  width: 80px;             /* 设置图标大小 */
+  width: 80px;   /* 设置图标大小 */
   height: 80px;
-  object-fit: contain;     /* 让图标按比例缩放 */
-  border-radius: 12px;     /* 可选，给图标加圆角 */
+  object-fit: contain;
+  border-radius: 12px;
 }
 
-/* 如果将来要在手机端缩小，可以放开这段 */
+/* 调整手机端显示图标大小 */
 @media (max-width: 768px) {
   #sidebar .site-title img {
     width: 60px;
     height: 60px;
   }
 }
+
 
 </style>
