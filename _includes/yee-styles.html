@@ -215,4 +215,26 @@
   transform: scale(1.05);
 }
 
+/* 在左侧侧栏标题（Yee Hsu）上方放一个图标，不改模板结构 */
+#sidebar .site-title::before {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 8px;
+  background: url('{{ "/assets/img/favicon.png" | relative_url }}') no-repeat center / contain;
+  border-radius: 12px;   /* 需要圆角就留着，不要可删 */
+}
+
+/* 如果将来要在手机端缩小，再放开这段即可 */
+/*
+@media (max-width: 768px) {
+  #sidebar .site-title::before {
+    width: 60px;
+    height: 60px;
+  }
+}
+*/
+
+  
 </style>
