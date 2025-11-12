@@ -29,7 +29,7 @@ baseurl: ""
 tabs: true
 email: yxu11@outlook.com
 
-favicon: assets/img/favicon.png
+favicon: /assets/img/favicon.png
 
 # Load custom head styles (for warm tone accent)
 head:
