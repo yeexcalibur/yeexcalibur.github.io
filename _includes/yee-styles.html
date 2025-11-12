@@ -236,18 +236,19 @@
 }
 */
 
-/* 让 sidebar 中的 icon 水平居中 */
+/* 保证侧边栏中的 icon 居中显示 */
 #sidebar .yee-logo-wrap {
-  text-align: center;
-  margin-bottom: 0.8rem;  /* 控制和下方文字的间距 */
+  display: flex;
+  justify-content: center; /* 水平居中 */
+  align-items: center;     /* 垂直居中 */
+  margin-bottom: 0.8rem;   /* 控制图标和下方文字的距离 */
 }
 
 #sidebar .yee-logo-wrap img {
-  width: 80px;  /* 控制图标大小 */
+  width: 80px;             /* 设置图标大小 */
   height: 80px;
-  object-fit: contain;
-  border-radius: 12px;  /* 控制圆角 */
+  object-fit: contain;     /* 让图标按比例缩放 */
+  border-radius: 12px;     /* 可选，给图标加圆角 */
 }
 
-  
 </style>
