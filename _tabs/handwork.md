@@ -38,9 +38,10 @@ permalink: /tabs/handwork/
     <div class="tile-caption">Study model · 2017</div>
   </div>
 
-<hr>
+---
 
-### Survey & 1:1 Build / 测绘与实体建造
+### Survey & 1:1 Build / 测绘与实体建造<br>
+<br>
 “做中思考”的观察与原型制作。<br>
 
 <div class="handwork-grid-lg">
