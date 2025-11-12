@@ -114,28 +114,53 @@
 .op-thumb img{width:100%; height:100%; object-fit:cover; display:block}
 @media (max-width: 720px){ .op-col-thumb{width:120px} .op-thumb{width:120px} .op-table th,.op-table td{padding:8px} }
 
-/* 通用16:9缩略图（与 Other 表格缩略图一致） */
-.thumb-16x9{
-  display:block;
-  width:150px;            /* 小而统一 */
-  aspect-ratio:16/9;      /* 横向长方形 */
-  overflow:hidden;
-  border-radius:10px;
-  border:1px solid var(--yee-soft);
-  background:#fff;
-}
-.thumb-16x9 img{
-  width:100%; height:100%; object-fit:cover; display:block;
+/* Handwork 紧凑版网格 */
+.handwork-compact {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 18px;
+  justify-items: center;
+  margin-top: 1rem;
 }
 
-/* Handwork 的“紧凑布局”版本 */
-.handwork-compact{ 
-  display:grid;
-  grid-template-columns:repeat(auto-fill,minmax(160px,1fr));
-  gap:16px;
+/* 每个 tile：固定 16:9 比例，强制统一尺寸 */
+.handwork-tile {
+  display: block;
+  width: 180px;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: 10px;
+  border: 1px solid var(--yee-soft);
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+  transition: transform 0.2s ease;
 }
-.handwork-compact .handwork-tile{ width:150px; aspect-ratio:16/9; margin:0 auto; border-radius:12px; overflow:hidden; border:1px solid var(--yee-soft); background:#fffaf5; }
-.handwork-compact .handwork-tile img{ width:100%; height:100%; object-fit:cover; display:block; }
-.handwork-compact .handwork-caption{ font-size:.9rem; margin-top:6px; text-align:center; color:#555; }
+
+.handwork-tile:hover {
+  transform: translateY(-3px);
+}
+
+/* 图片完全贴合容器（即使原图比例不同） */
+.handwork-tile img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.handwork-caption {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 6px;
+}
+
+/* 移动端调整：缩略图略小 */
+@media (max-width: 720px) {
+  .handwork-tile {
+    width: 140px;
+  }
+}
+
   
 </style>
