@@ -8,6 +8,39 @@
 <link rel="shortcut icon" href="{{ '/favicon1.ico' | relative_url }}?v={{ v }}">
 <link rel="apple-touch-icon" href="{{ '/assets/img/favicon1.png' | relative_url }}?v={{ v }}" sizes="180x180">
 
+<script>
+(function(){
+  // 和上面的文件名保持一致
+  var png = '{{ "/assets/img/yee-icon-2025.png" | relative_url }}?t=' + Date.now();
+  var ico = '{{ "/yee-icon-2025.ico" | relative_url }}?t=' + Date.now();
+
+  function inject(rel, href, type){
+    var el = document.querySelector('link[rel="'+rel+'"]');
+    if(!el){ el = document.createElement('link'); el.rel = rel; document.head.appendChild(el); }
+    if(type) el.type = type;
+    el.href = href;
+  }
+
+  // 先正常写一遍（有些浏览器就够了）
+  inject('icon', png, 'image/png');
+  inject('shortcut icon', ico);
+  inject('apple-touch-icon', png);
+
+  // 再强制用 Blob URL，100% 绕过缓存
+  try {
+    fetch(png, {cache: 'reload'})
+      .then(r => r.blob())
+      .then(b => {
+        var url = URL.createObjectURL(b);
+        inject('icon', url, 'image/png');
+        inject('apple-touch-icon', url);
+        // 不对 shortcut icon 用 blob（部分浏览器不认），留着上面的 ico 兜底
+      });
+  } catch(e) {}
+})();
+</script>
+
+
 {%- comment -%}
 再用 JS 兜底：如果浏览器还在用旧的，就动态写入最新版链接
 {%- endcomment -%}
