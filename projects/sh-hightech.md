@@ -19,6 +19,7 @@ The masterplan emphasizes sustainable development, energy efficiency, and spatia
 - 智慧园区规划：通过BIM协同设计与能源模拟技术优化建筑体量及设备配置，提高建筑能效比与维护可控性。BIM coordination and energy simulation technologies enhance spatial efficiency and system reliability.
 - 产业升级示范：作为上海松江区重点推进项目，项目建成后将成为区域高新技术产业发展的示范节点。As a key project in Songjiang District, it serves as a model for sustainable high-tech industrial development and regional innovation.
 
+### My Job
 ### Lead deginer
 - Responsible for conceptual and schematic design, pushing forward site master planning and building design development.
 - Collaborated with the team on overall park planning and design refinement through analytical studies and drawing optimization.
