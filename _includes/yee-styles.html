@@ -167,7 +167,7 @@
 .handwork-grid-lg{
   display:grid;
   grid-template-columns:repeat(2, minmax(320px, 1fr));
-  gap:20px;
+  gap:24px;
   align-items:start;
   grid-auto-flow: row dense; /* 关键：回填空洞 */
   margin-top:1rem;
@@ -179,6 +179,11 @@
   flex-direction:column;
 }
 
+/* 平板/手机：自动一列 */
+@media (max-width: 980px){
+  .handwork-grid-lg{ grid-template-columns: 1fr; }
+}
+  
 /* 固定 16:9 图片框 */
 .tile-16x9{
   display:block;
