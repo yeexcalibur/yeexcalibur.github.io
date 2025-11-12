@@ -215,25 +215,25 @@
   transform: scale(1.05);
 }
 
-/* 确保 site-title 和图标左对齐 */
+/* 让 site-title 和图标左对齐 */
 #sidebar .site-title {
-  display: flex;              /* 水平排列图标和文字 */
-  flex-direction: row;        /* 图标和文字横向排列 */
-  justify-content: flex-start;/* 左对齐 */
-  align-items: center;        /* 垂直居中 */
-  margin-bottom: 1rem;        /* 图标和文字之间的间距 */
+  display: flex;
+  flex-direction: row;       /* 水平排列图标和文字 */
+  justify-content: flex-start; /* 左对齐 */
+  align-items: center;         /* 垂直居中 */
+  margin-bottom: 1rem;         /* 控制图标和文字的间距 */
 }
 
-/* 图标的样式 */
+/* 图标样式 */
 #sidebar .site-title img {
-  width: 80px;               /* 设置图标大小 */
+  width: 80px;                 /* 设置图标大小 */
   height: 80px;
-  object-fit: contain;       /* 保持比例 */
-  border-radius: 12px;       /* 圆角效果 */
-  margin-right: 10px;        /* 图标和文字之间的间距 */
+  object-fit: contain;         /* 保持比例 */
+  border-radius: 12px;         /* 圆角效果 */
+  margin-right: 10px;          /* 图标和文字之间的间距 */
 }
 
-/* 对小屏设备缩小图标大小 */
+/* 对小屏设备缩小图标 */
 @media (max-width: 768px) {
   #sidebar .site-title img {
     width: 60px;
@@ -241,7 +241,7 @@
   }
 }
 
-/* 直接设置图标 URL，确保加载正确 */
+/* 直接加载图标图片 */
 #sidebar .site-title img {
   content: url('{{ "/assets/img/favicon.png" | relative_url }}'); /* 图标的 URL 地址 */
 }
