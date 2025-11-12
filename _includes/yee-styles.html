@@ -225,23 +225,23 @@
   background: url('{{ "/assets/img/favicon.png" | relative_url }}') no-repeat center / contain;
   border-radius: 12px;   /* 需要圆角就留着，不要可删 */
 }
-
-/* 把 sidebar 中的 icon 靠左与 Yee Hsu 对齐 */
+  
+/* 强制 site-title 和图标都左对齐 */
 #sidebar .site-title {
   display: flex;
-  flex-direction: row;  /* 水平排列图标和文字 */
-  justify-content: flex-start; /* 靠左对齐 */
-  align-items: center;     /* 垂直居中 */
-  margin-bottom: 1rem;     /* 控制图标和文字的距离 */
+  flex-direction: row;       /* 图标和文字水平排布 */
+  justify-content: flex-start; /* 图标和文字靠左对齐 */
+  align-items: center;         /* 垂直居中 */
+  margin-bottom: 1rem;         /* 图标与文字之间的间距 */
 }
 
-/* 图标样式 */
+/* 调整图标样式 */
 #sidebar .site-title img {
-  width: 80px;             /* 设置图标大小 */
+  width: 80px;               /* 图标大小 */
   height: 80px;
-  object-fit: contain;     /* 保持比例 */
-  border-radius: 12px;     /* 可选，给图标加圆角 */
-  margin-right: 10px;      /* 图标和文字之间的间距 */
+  object-fit: contain;       /* 保持比例 */
+  border-radius: 12px;       /* 可选，圆角 */
+  margin-right: 10px;        /* 图标和文字之间的间距 */
 }
 
 /* 调整手机端显示图标大小 */
