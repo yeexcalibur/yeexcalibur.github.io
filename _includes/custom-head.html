@@ -1,23 +1,28 @@
 {%- assign v = site.github.build_revision | default: site.time | date: '%s' -%}
 
-{%- comment -%} ① 优先：内联 SVG（不走网络、完全绕过缓存） {%- endcomment -%}
+{%- comment -%} ① 使用内联 SVG 图标（优先级最高，不走缓存） {%- endcomment -%}
 <link rel="icon" type="image/svg+xml"
       href='data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><text x="50%" y="58%" dominant-baseline="middle" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="64" fill="%23B77466">Yee</text></svg>'>
 
-{%- comment -%} ② 兜底：PNG / ICO（仍然保留，以防极旧浏览器） {%- endcomment -%}
-<link rel="icon" type="image/png" href="{{ '/assets/img/yee-icon-2025.png' | relative_url }}?v={{ v }}">
-<link rel="shortcut icon" href="{{ '/yee-icon-2025.ico' | relative_url }}?v={{ v }}">
-<link rel="apple-touch-icon" href="{{ '/assets/img/yee-icon-2025.png' | relative_url }}?v={{ v }}" sizes="180x180">
-
-{%- comment -%} ③ 双保险：页面加载后再把 SVG 强行写入（部分浏览器会更听话） {%- endcomment -%}
+{%- comment -%} ② 清除缓存并强制更新 favicon 图标 {%- endcomment -%}
 <script>
 (function(){
-  var svg = 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><text x="50%" y="58%" dominant-baseline="middle" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="64" fill="%23B77466">Yee</text></svg>';
-  ['icon','shortcut icon','apple-touch-icon'].forEach(function(rel){
-    var el = document.querySelector('link[rel="'+rel+'"]');
-    if(!el){ el = document.createElement('link'); el.rel = rel; document.head.appendChild(el); }
-    if (rel === 'icon') el.type = 'image/svg+xml';
-    el.href = svg;
-  });
+  // 使用内联 SVG 作为图标
+  const svg = 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><text x="50%" y="58%" dominant-baseline="middle" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="64" fill="%23B77466">Yee</text></svg>';
+
+  // 通过 JS 强制清除缓存并重置图标
+  const linkTags = document.querySelectorAll('link[rel*="icon"]');
+  linkTags.forEach(link => link.parentNode.removeChild(link));
+
+  // 强制更新 favicon 使用 SVG 数据
+  const link = document.createElement('link');
+  link.rel = 'icon';
+  link.type = 'image/svg+xml';
+  link.href = svg;
+  document.head.appendChild(link);
+
+  // 同时清除网页缓存
+  localStorage.clear(); // 清空浏览器缓存（存储的数据）
+  sessionStorage.clear(); // 清除会话缓存
 })();
 </script>
