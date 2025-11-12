@@ -163,14 +163,23 @@
 }
 
 /* ========== 封面尺寸（给 Handwork 用） ========== */
-/* 大图网格：每格最少 320px，最多自适应占满，16:9 比例 */
+/* Handwork：封面尺寸网格（大图） */
 .handwork-grid-lg{
   display:grid;
-  grid-template-columns:repeat(auto-fill, minmax(360px, 1fr));
+  grid-template-columns:repeat(2, minmax(320px, 1fr));
   gap:20px;
   align-items:start;
+  grid-auto-flow: row dense; /* 关键：回填空洞 */
   margin-top:1rem;
 }
+
+/* 卡片由图片+说明组成，避免说明字多导致高度差太大 */
+.tile-card{
+  display:flex;
+  flex-direction:column;
+}
+
+/* 固定 16:9 图片框 */
 .tile-16x9{
   display:block;
   width:100%;
@@ -181,31 +190,17 @@
   background:#fff;
   box-shadow:0 2px 6px rgba(0,0,0,.05);
 }
-.tile-16x9 img{
-  width:100%; height:100%; object-fit:cover; display:block;
-}
+.tile-16x9 img{ width:100%; height:100%; object-fit:cover; display:block; }
+
+/* 说明区域给个最小高度，减小卡片之间的高度差 */
 .tile-caption{
-  font-size:.95rem; color:#555; margin-top:8px; text-align:left;
+  font-size:.95rem; color:#555; margin-top:8px;
+  min-height: 1.2em;   /* 一行高；如需两行可改 2.4em */
 }
 
-/* 小屏：让每格最小 280px，避免太大 */
+/* 小屏略缩小列宽 */
 @media (max-width: 720px){
-  .handwork-grid-lg{ grid-template-columns:repeat(auto-fill, minmax(280px, 1fr)); }
+  .handwork-grid-lg{ grid-template-columns:repeat(auto-fill, minmax(280px,1fr)); }
 }
 
-/* ========== 缩略图尺寸（给 Ongoing / Animal Rescue 用） ========== */
-.thumb-16x9{
-  display:block;
-  width:150px;
-  aspect-ratio:16/9;
-  overflow:hidden;
-  border-radius:10px;
-  border:1px solid var(--yee-soft);
-  background:#fff;
-}
-.thumb-16x9 img{
-  width:100%; height:100%; object-fit:cover; display:block;
-}
-
-  
 </style>
