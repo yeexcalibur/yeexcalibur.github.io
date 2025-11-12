@@ -4,17 +4,17 @@
 {%- endcomment -%}
 {%- assign v = site.github.build_revision | default: site.time | date: '%s' -%}
 
-<link rel="icon" type="image/png" href="{{ '/assets/img/favicon.png' | relative_url }}?v={{ v }}">
-<link rel="shortcut icon" href="{{ '/favicon.ico' | relative_url }}?v={{ v }}">
-<link rel="apple-touch-icon" href="{{ '/assets/img/favicon.png' | relative_url }}?v={{ v }}" sizes="180x180">
+<link rel="icon" type="image/png" href="{{ '/assets/img/favicon1.png' | relative_url }}?v={{ v }}">
+<link rel="shortcut icon" href="{{ '/favicon1.ico' | relative_url }}?v={{ v }}">
+<link rel="apple-touch-icon" href="{{ '/assets/img/favicon1.png' | relative_url }}?v={{ v }}" sizes="180x180">
 
 {%- comment -%}
 再用 JS 兜底：如果浏览器还在用旧的，就动态写入最新版链接
 {%- endcomment -%}
 <script>
 (function(v){
-  var png='{{ "/assets/img/favicon.png" | relative_url }}?v=' + v;
-  var ico='{{ "/favicon.ico" | relative_url }}?v=' + v;
+  var png='{{ "/assets/img/favicon1.png" | relative_url }}?v=' + v;
+  var ico='{{ "/favicon1.ico" | relative_url }}?v=' + v;
 
   function setIcon(rel, href, type){
     var link=document.querySelector('link[rel="'+rel+'"]');
