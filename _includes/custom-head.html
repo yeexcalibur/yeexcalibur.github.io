@@ -1,3 +1,30 @@
-<link rel="icon" type="image/png" href="{{ '/assets/img/favicon.png?v=8' | relative_url }}">
-<link rel="shortcut icon" href="{{ '/favicon.ico?v=8' | relative_url }}">
-<link rel="apple-touch-icon" href="{{ '/assets/img/favicon.png?v=8' | relative_url }}" sizes="180x180">
+{%- comment -%}
+自动给 favicon 加版本号（每次部署变化）
+优先用 GitHub 提供的构建哈希，若没有则用时间戳
+{%- endcomment -%}
+{%- assign v = site.github.build_revision | default: site.time | date: '%s' -%}
+
+<link rel="icon" type="image/png" href="{{ '/assets/img/favicon.png' | relative_url }}?v={{ v }}">
+<link rel="shortcut icon" href="{{ '/favicon.ico' | relative_url }}?v={{ v }}">
+<link rel="apple-touch-icon" href="{{ '/assets/img/favicon.png' | relative_url }}?v={{ v }}" sizes="180x180">
+
+{%- comment -%}
+再用 JS 兜底：如果浏览器还在用旧的，就动态写入最新版链接
+{%- endcomment -%}
+<script>
+(function(v){
+  var png='{{ "/assets/img/favicon.png" | relative_url }}?v=' + v;
+  var ico='{{ "/favicon.ico" | relative_url }}?v=' + v;
+
+  function setIcon(rel, href, type){
+    var link=document.querySelector('link[rel="'+rel+'"]');
+    if(!link){ link=document.createElement('link'); link.rel=rel; document.head.appendChild(link); }
+    if(type) link.type=type;
+    link.href=href;
+  }
+
+  setIcon('icon', png, 'image/png');
+  setIcon('shortcut icon', ico);
+  setIcon('apple-touch-icon', png);
+})('{{ v }}');
+</script>
