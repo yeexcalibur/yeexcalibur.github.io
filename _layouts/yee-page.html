@@ -9,4 +9,26 @@ layout: page
   <p><a class="btn" href="{{ '/tabs/handwork/' | relative_url }}">← Back to Handwork</a></p>
 {% endif %}
 
+<script>
+(function () {
+  var png = '{{ "/assets/img/favicon.png?v=5" | relative_url }}';
+  var ico = '{{ "/favicon.ico?v=5" | relative_url }}';
+
+  function setIcon(rel, href, type) {
+    var link = document.querySelector('link[rel="' + rel + '"]');
+    if (!link) {
+      link = document.createElement('link');
+      link.rel = rel;
+      document.head.appendChild(link);
+    }
+    if (type) link.type = type;
+    link.href = href;
+  }
+
+  setIcon('icon', png, 'image/png');
+  setIcon('shortcut icon', ico);
+  setIcon('apple-touch-icon', png);
+})();
+</script>
+
 {{ content }}
