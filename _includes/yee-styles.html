@@ -219,22 +219,25 @@
 #home-icon-wrap {
   width: 100%;
   display: flex;
-  justify-content: center;    /* 水平居中 */
-  align-items: center;        /* 垂直居中 */
-  position: fixed;            /* 固定在页面底部 */
-  bottom: 0;                  /* 距离页面底部 */
-  padding-bottom: 15px;       /* 图标与底部的间距，按需调整 */
+  justify-content: center;   /* 水平居中 */
+  align-items: center;       /* 垂直居中 */
+  position: fixed;           /* 固定在页面底部 */
+  left: 0;                   /* 确保不会偏移到右边 */
+  right: 0;                  /* 确保不会偏移到右边 */
+  bottom: 0;                 /* 距离页面底部 */
+  padding-bottom: 10px;      /* 图标与底部的间距，可以根据需要调整 */
+  z-index: 9999;             /* 确保图标显示在最上层 */
 }
 
 /* 图标样式 */
 #home-icon {
-  width: 96px;                /* 设置图标的宽度 */
+  width: 96px;               /* 设置图标宽度 */
   height: auto;
-  max-width: 24vw;            /* 响应式，最大宽度 24% */
+  max-width: 24vw;           /* 响应式，最大宽度 24% */
   max-height: 140px;
-  object-fit: contain;
+  object-fit: contain;       /* 保持比例 */
   display: block;
-  border-radius: 8px;         /* 可选，给图标加圆角 */
+  border-radius: 8px;        /* 可选，给图标加圆角 */
 }
 
 /* 手机端调整图标大小 */
