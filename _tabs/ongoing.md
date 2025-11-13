@@ -41,24 +41,13 @@ Clinic visit or rescue house visit records are not shown here for now in case ca
   </div>
 </div>
 
-<!-- 更多按钮 -->
-<button id="more-btn">More pics &gt;&gt;</button>
+<!-- More 按钮 -->
+<button id="more-btn">More pics>> </button>
 
 <!-- 隐藏的链接 -->
-<div id="more-link" style="display:none;">
-  <a href="https://yeexcalibur.bsky.social" target="_blank">More Pics</a>
+<div id="more-link" style="display: none;">
+  <a href="https://yeexcalibur.bsky.social" target="_blank">点击这里查看我拍的所有小猫照片</a>
 </div>
 
-<script>
-  // 获取按钮和链接元素
-  const button = document.getElementById('more-btn');
-  const moreLink = document.getElementById('more-link');
-
-  // 当点击按钮时，显示链接
-  button.addEventListener('click', function() {
-    moreLink.style.display = 'block';
-    button.style.display = 'none';  // 隐藏按钮
-  });
-</script>
 
 - AI × Architecture（研究方向）
