@@ -215,35 +215,23 @@
   transform: scale(1.05);
 }
 
-/* 确保图标和文字左对齐 */
-#sidebar .site-title {
-  display: flex;                /* 使用 flexbox 来确保图标和文字并排 */
-  flex-direction: row;          /* 水平排列 */
-  justify-content: flex-start;  /* 图标和文字左对齐 */
-  align-items: center;          /* 垂直居中 */
-  margin-bottom: 1rem;          /* 图标和文字之间的间距 */
+/* 1. 将图标放置在首页正中最下方 */
+#home-icon {
+  display: block;
+  width: 80px;               /* 设置图标宽度 */
+  height: 80px;              /* 设置图标高度 */
+  margin: 20px auto;         /* 居中显示并和页面底部保持一定的间距 */
+  object-fit: contain;       /* 保持图标比例 */
+  border-radius: 12px;       /* 圆角效果 */
+  background: url('{{ "/assets/img/favicon.png" | relative_url }}') no-repeat center / contain;
 }
 
-/* 图标样式 */
-#sidebar .site-title img {
-  width: 80px;                  /* 设置图标宽度 */
-  height: 80px;                 /* 设置图标高度 */
-  object-fit: contain;          /* 保持比例 */
-  border-radius: 12px;          /* 圆角效果 */
-  margin-right: 10px;           /* 图标和文字之间的间距 */
-}
-
-/* 对小屏设备缩小图标大小 */
+/* 2. 调整手机端图标大小 */
 @media (max-width: 768px) {
-  #sidebar .site-title img {
+  #home-icon {
     width: 60px;
     height: 60px;
   }
-}
-
-/* 直接加载图标图片，确保图标路径正确 */
-#sidebar .site-title img {
-  content: url('{{ "/assets/img/favicon.png" | relative_url }}');  /* 图标的正确 URL 地址 */
 }
 
 </style>
