@@ -10,3 +10,6 @@ permalink: /
 - 进入 **Portfolio** ：精选项目与要点  
 - 查看 **Ongoing** ：当前进行的长期计划  
 - 阅读 **Articles** ：片段式思考与研究札记
+
+<div id="home-icon"></div>
+
