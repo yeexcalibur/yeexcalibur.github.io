@@ -42,11 +42,11 @@ Clinic visit or rescue house visit records are not shown here for now in case ca
 </div>
 
 <!-- 更多按钮 -->
-<button id="more-btn">More &gt;&gt;</button>
+<button id="more-btn">More pics &gt;&gt;</button>
 
 <!-- 隐藏的链接 -->
 <div id="more-link" style="display:none;">
-  <a href="https://bsky.app/profile/yeexcalibur.bsky.social" target="_blank">More Pics</a>
+  <a href="https://yeexcalibur.bsky.social" target="_blank">More Pics</a>
 </div>
 
 <script>
@@ -60,6 +60,5 @@ Clinic visit or rescue house visit records are not shown here for now in case ca
     button.style.display = 'none';  // 隐藏按钮
   });
 </script>
-
 
 - AI × Architecture（研究方向）
