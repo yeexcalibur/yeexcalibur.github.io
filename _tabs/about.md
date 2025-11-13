@@ -13,7 +13,7 @@ Thesis: *'Planning in Advance for Rehabilitation and Restoration – Using BIM a
 **Sichuan University**, Chengdu, China (2012-2017)<br>
 **Bachelor** of Architecture
 
-### Professional Experience
+### Professional Experience in CN
 **Huaxin Design Group (formerly Wuxi Municipal Design Institute)**, Wuxi, China<br>
 **Architect** | Sep 2023 – Present<br>
 - Leading urban renewal and elderly-friendly renovation projects that integrate design innovation and sustainable consulting. Responsible for full-cycle project strategy, energy performance analysis, and interdisciplinary coordination.<br><br>
