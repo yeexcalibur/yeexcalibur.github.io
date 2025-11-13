@@ -11,5 +11,8 @@ permalink: /
 - 查看 **Ongoing** ：当前进行的长期计划  
 - 阅读 **Articles** ：片段式思考与研究札记
 
-<div id="home-icon"></div>
+<!-- home icon: 居中显示在首页内容下方 -->
+<div id="home-icon-wrap" aria-hidden="true">
+  <img id="home-icon" src="{{ '/assets/img/favicon.png' | relative_url }}" alt="Yee logo">
+</div>
 
