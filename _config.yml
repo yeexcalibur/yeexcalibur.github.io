@@ -1,6 +1,6 @@
 theme: jekyll-theme-chirpy
 # 让 Jekyll 输出 _tabs/ 里的页面，并生成 /tabs/xxx/ 路径
-avatar: /assets/img/avatar1.jpg
+avatar: /assets/img/avatar2.jpg
 collections:
   tabs:
     output: true
