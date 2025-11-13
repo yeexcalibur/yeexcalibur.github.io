@@ -10,6 +10,7 @@ permalink: /
 - 进入 **Portfolio** ：国内工作中的精选项目与要点  
 - 查看 **Ongoing** ：工作以外进行的人生长期计划  
 - 阅读 **Handwork** ：精选我过去做的各类型手工作品
+- 点击 **About** ：我个人的简单经历
 
 <!-- home icon: 居中显示在首页内容下方 -->
 <div id="home-icon-wrap" aria-hidden="true">
