@@ -216,25 +216,25 @@
 }
 
 /* =============== 首页底部居中 icon =============== */
+/* 包裹层，保证在页面底部且不遮挡内容 */
 #home-icon-wrap {
   width: 100%;
   display: flex;
-  justify-content: center;  /* 水平居中 */
-  align-items: center;      /* 垂直居中 */
-  position: absolute;
-  bottom: 0;                /* 确保图标贴底 */
-  padding-bottom: 10px;     /* 与底部的距离，按需调整 */
+  justify-content: center;     /* 水平居中 */
+  align-items: center;
+  margin-top: 5.5rem;          /* 与上面内容的距离，可按需调整 */
+  margin-bottom: 1.5rem;       /* 与页面底部的距离 */
 }
 
-/* 图标样式 */
+/* 图标本体 */
 #home-icon {
-  width: 96px;               /* 桌面尺寸 */
+  width: 96px;                 /* 桌面尺寸，可调整 */
   height: auto;
-  max-width: 24vw;           /* 响应式，宽度不超过视口24% */
+  max-width: 24vw;             /* 响应式，宽度不超过视口24% */
   max-height: 140px;
   object-fit: contain;
   display: block;
-  border-radius: 8px;        /* 可选，给图标加圆角 */
+  border-radius: 8px;          /* 如不需要删掉此行 */
 }
 
 /* 手机端自动缩小（窄屏时） */
@@ -244,6 +244,13 @@
     max-width: 35vw;
   }
 }
+
+/* 可选：让 icon 位于“视口底部内侧”（若你要视觉上贴底，可启用）*/
+#home-icon-wrap {
+  position: relative;
+  padding-bottom: 2rem;
+}
+
 
 /* 确保侧边栏的所有内容垂直居中 */
 #sidebar {
