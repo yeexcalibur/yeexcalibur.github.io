@@ -245,62 +245,50 @@
   }
 }
 
-
-/* 确保侧边栏的所有内容垂直居中 */
+/* 侧边栏布局，确保头像和导航栏垂直排列 */
 #sidebar {
   display: flex;
-  flex-direction: column;
-  justify-content: center; /* 垂直居中 */
-  align-items: center;     /* 水平居中 */
-  height: 100%;            /* 确保侧边栏高度为屏幕高度 */
+  flex-direction: column;    /* 垂直排列 */
+  justify-content: flex-start; /* 顶部对齐 */
+  align-items: center;        /* 水平居中 */
+  padding: 2rem 0;            /* 给头像和导航栏一些空间 */
+  background: #f7f1e1;        /* 背景色 */
 }
 
-/* 调整 logo 和导航项 */
-#sidebar .site-title {
-  display: flex;
-  justify-content: center; /* 水平居中 */
-  align-items: center;     /* 垂直居中 */
-  margin-bottom: 2rem;     /* logo 与其他项的间距 */
-}
-  
-/* 恢复默认头像框样式 */
+/* 头像样式 */
 .site-avatar {
-  width: 80px;             /* 头像框大小 */
-  height: 80px;
-  border-radius: 50%;      /* 让头像框变成圆形 */
-  overflow: hidden;        /* 确保头像图片不溢出框 */
-  margin-bottom: 1rem;     /* 头像和下方内容的间距 */
-  display: flex;           /* 保证头像居中显示 */
-  justify-content: center; /* 保证头像水平居中 */
-  align-items: center;     /* 保证头像垂直居中 */
+  width: 80px;               /* 设置头像框的宽度 */
+  height: 80px;              /* 设置头像框的高度 */
+  border-radius: 50%;        /* 圆形头像框 */
+  overflow: hidden;          /* 防止头像溢出 */
+  margin-bottom: 1rem;       /* 头像和导航栏之间的间距 */
 }
 
 /* 头像图片样式 */
 .site-avatar img {
-  width: 100%;             /* 使图片填充整个头像框 */
+  width: 100%;               /* 填充整个头像框 */
   height: 100%;
-  object-fit: cover;       /* 保持图片比例 */
+  object-fit: cover;         /* 保持图片比例 */
 }
 
-/* 确保侧边栏导航栏内容正确显示 */
-#sidebar .nav {
+/* 导航栏 */
+.site-nav .nav {
   display: flex;
-  flex-direction: column;  /* 导航项垂直排列 */
-  align-items: center;     /* 导航项水平居中 */
-  margin-top: 2rem;        /* 头像和导航栏之间的间距 */
+  flex-direction: column;    /* 导航项垂直排列 */
+  align-items: center;       /* 导航项水平居中 */
+  margin-top: 1rem;          /* 头像和导航栏的间距 */
 }
 
-/* 导航项的样式 */
-#sidebar .nav li {
-  margin-bottom: 1rem;     /* 导航项之间的间距 */
+/* 导航项样式 */
+.site-nav .nav li {
+  margin-bottom: 1rem;       /* 导航项之间的间距 */
 }
 
-#sidebar .nav li a {
-  color: #c58f72;          /* 导航项文字颜色 */
-  text-decoration: none;   /* 去除下划线 */
+.site-nav .nav li a {
+  color: #c58f72;            /* 导航项文字颜色 */
+  text-decoration: none;     /* 去除下划线 */
   font-weight: bold;
 }
-
 
   
 </style>
