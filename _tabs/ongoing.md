@@ -8,7 +8,7 @@ order: 2
 
 - Animal Rescue（动物救助）
 ### Animal Rescue / 动物记录（部分记录）
-Clinic visit or rescue house visit records are not shown here for now in case causing trauma to high-senstive people (like me at very first). It was and still is a hard time to see poor animals for me. <br>
+Clinic visit or rescue house visit records are not shown here for now in case causing trauma to high-senstive people (like me at very first time). It was and still is a hard time to see poor animals for me. <br>
 救助站支援记录暂不展示。（以防造成他人创伤）<br>
 
 <div class="grid">
@@ -40,5 +40,26 @@ Clinic visit or rescue house visit records are not shown here for now in case ca
     <div class="muted" style="margin-top:6px">2023–2025 · Cat Record</div>
   </div>
 </div>
+
+<!-- 更多按钮 -->
+<button id="more-btn">More &gt;&gt;</button>
+
+<!-- 隐藏的链接 -->
+<div id="more-link" style="display:none;">
+  <a href="https://bsky.app/profile/yeexcalibur.bsky.social" target="_blank">More Pics</a>
+</div>
+
+<script>
+  // 获取按钮和链接元素
+  const button = document.getElementById('more-btn');
+  const moreLink = document.getElementById('more-link');
+
+  // 当点击按钮时，显示链接
+  button.addEventListener('click', function() {
+    moreLink.style.display = 'block';
+    button.style.display = 'none';  // 隐藏按钮
+  });
+</script>
+
 
 - AI × Architecture（研究方向）
