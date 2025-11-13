@@ -263,47 +263,44 @@
   margin-bottom: 2rem;     /* logo 与其他项的间距 */
 }
   
-/* 调整侧边栏布局，确保头像和导航栏一起显示 */
-#sidebar {
-  display: flex;
-  flex-direction: column;    /* 垂直排列头像和导航 */
-  justify-content: flex-start; /* 上对齐 */
-  align-items: center;        /* 水平居中 */
-  padding: 2rem 0;            /* 给头像和导航栏一些空间 */
-}
-
-/* 设置头像框的样式 */
+/* 恢复默认头像框样式 */
 .site-avatar {
-  width: 80px;               /* 设置头像框的宽度 */
-  height: 80px;              /* 设置头像框的高度 */
-  border-radius: 50%;        /* 圆形框 */
-  overflow: hidden;          /* 防止头像溢出框 */
-  margin-bottom: 1rem;       /* 头像和导航栏之间的间距 */
+  width: 80px;             /* 头像框大小 */
+  height: 80px;
+  border-radius: 50%;      /* 让头像框变成圆形 */
+  overflow: hidden;        /* 确保头像图片不溢出框 */
+  margin-bottom: 1rem;     /* 头像和下方内容的间距 */
+  display: flex;           /* 保证头像居中显示 */
+  justify-content: center; /* 保证头像水平居中 */
+  align-items: center;     /* 保证头像垂直居中 */
 }
 
-/* 设置头像的显示 */
+/* 头像图片样式 */
 .site-avatar img {
-  width: 100%;               /* 使头像图片完全填充框 */
-  height: 100%;              /* 使头像图片完全填充框 */
-  object-fit: cover;         /* 保持头像比例 */
+  width: 100%;             /* 使图片填充整个头像框 */
+  height: 100%;
+  object-fit: cover;       /* 保持图片比例 */
 }
 
-/* 确保导航项居中 */
+/* 确保侧边栏导航栏内容正确显示 */
 #sidebar .nav {
   display: flex;
-  flex-direction: column;
-  align-items: center;       /* 导航项水平居中 */
-  margin-top: 1rem;          /* 使导航栏离头像有适当的间距 */
+  flex-direction: column;  /* 导航项垂直排列 */
+  align-items: center;     /* 导航项水平居中 */
+  margin-top: 2rem;        /* 头像和导航栏之间的间距 */
 }
 
+/* 导航项的样式 */
 #sidebar .nav li {
-  margin-bottom: 1rem;       /* 设置导航项之间的间距 */
+  margin-bottom: 1rem;     /* 导航项之间的间距 */
 }
 
 #sidebar .nav li a {
-  color: #c58f72;            /* 导航项文字颜色 */
-  text-decoration: none;
+  color: #c58f72;          /* 导航项文字颜色 */
+  text-decoration: none;   /* 去除下划线 */
   font-weight: bold;
 }
 
+
+  
 </style>
