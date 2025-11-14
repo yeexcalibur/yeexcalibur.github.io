@@ -4,6 +4,13 @@ title: About
 icon: fas fa-user
 order: 4
 ---
+
+<h1 class="yee-page-title">
+  About
+  <span class="yee-page-title__icon"></span>
+</h1>
+
+
 **Yee Hsu (Yi Xu)** — Architect & Explorer.
 ### Education
 **University of Southern California (USC)**, Los Angeles, USA (2017-2019)<br>
