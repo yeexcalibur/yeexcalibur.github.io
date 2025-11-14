@@ -7,7 +7,7 @@ order: 2
 {% include yee-styles.html %}
 
 <h1 class="yee-page-title">
-  Ongoing
+  长期行动
   <span class="yee-page-title__icon"></span>
 </h1>
 
