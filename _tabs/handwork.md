@@ -7,7 +7,7 @@ permalink: /tabs/handwork/
 ---
 
 <h1 class="yee-page-title">
-  Handwork
+  手工作品
   <span class="yee-page-title__icon"></span>
 </h1>
 
