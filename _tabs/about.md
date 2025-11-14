@@ -8,8 +8,10 @@ order: 4
 ### Education
 **University of Southern California (USC)**, Los Angeles, USA (2017-2019)<br>
 **Master** of Building Science, Graduate Certificate in Sustainable Design<br>
-Thesis: *'Planning in Advance for Rehabilitation and Restoration – Using BIM and Seismic Simulation to Record and Analyze the Japanese House in Los Angeles'*<br>
-<br>
+Thesis:
+<a href="https://www.proquest.com/openview/44c1a69d0604d40e1b8bd7ef9728b5c4/1?pq-origsite=gscholar&cbl=51922&diss=y" target="_blank" rel="noopener noreferrer">
+  <em>'Planning in Advance for Rehabilitation and Restoration – Using BIM and Seismic Simulation to Record and Analyze the Japanese House in Los Angeles'</em>
+</a><br>
 **Sichuan University**, Chengdu, China (2012-2017)<br>
 **Bachelor** of Architecture
 
