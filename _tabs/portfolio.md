@@ -5,6 +5,11 @@ icon: fas fa-folder-open
 order: 1
 ---
 
+<h1 class="yee-page-title">
+  Portfolio
+  <span class="yee-page-title__icon"></span>
+</h1>
+
 <div class="grid">
   <div class="card">
     <a href="/projects/wuxi-senior-university/">
