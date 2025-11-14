@@ -290,26 +290,29 @@
   font-weight: bold;
 }
 
-/* Tabs 页面标题右侧的小 Logo 图标（About / Portfolio / Ongoing / Handwork / Contact） */
-/* ① 先给标题本身一个小下划线，方便确认样式有没有生效 */
-article.px-1 > header > h1 {
-  display: inline-flex;
-  align-items: center;
-  border-bottom: 2px solid rgba(183, 116, 102, .3); /* 测试用的浅色下划线 */
-  padding-bottom: .15em;
-}
+/* 只在使用 yee-page 布局的页面里生效：
+     1）隐藏 Chirpy 默认的 page 标题
+     2）用我们自己的标题 + 小图标 */
+  article.px-1 > header {
+    display: none;
+  }
 
-/* ② 再在标题右侧加上你的 favicon 小图标 */
-article.px-1 > header > h1::after {
-  content: "";
-  display: inline-block;
-  width: 1em;                 /* 和标题字号差不多高 */
-  height: 1em;
-  margin-left: 0.35em;        /* 标题和图标之间留一点空隙 */
-  background-image: url('{{ "/assets/img/favicon.png?v=8" | relative_url }}');
-  background-size: contain;
-  background-repeat: no-repeat;
-  vertical-align: middle;
-}
+/* 自定义 tabs 页面的标题样式 */
+  .yee-page-title {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 1.2rem;
+  }
+
+  .yee-page-title__icon {
+    display: inline-block;
+    width: 1em;   /* 和字体一样高 */
+    height: 1em;
+    margin-left: 0.35em;
+    background-image: url('{{ "/assets/img/favicon.png?v=8" | relative_url }}');
+    background-size: contain;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+  }
   
 </style>
