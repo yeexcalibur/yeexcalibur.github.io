@@ -6,6 +6,11 @@ order: 2
 ---
 {% include yee-styles.html %}
 
+<h1 class="yee-page-title">
+  Ongoing
+  <span class="yee-page-title__icon"></span>
+</h1>
+
 - Animal Rescue（动物救助）
 ### Animal Rescue / 动物记录（部分记录）
 Clinic visit or rescue house visit records are not shown here for now in case causing trauma to high-senstive people (like me at very first time). It was and still is a hard time to see poor animals for me. <br>
