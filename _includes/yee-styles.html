@@ -290,12 +290,10 @@
   font-weight: bold;
 }
 
-/* 只在使用 yee-page 布局的页面里生效：
-     1）隐藏 Chirpy 默认的 page 标题
-     2）用我们自己的标题 + 小图标 */
-  article.px-1 > header {
-    display: none;
-  }
+/* 隐藏 Chirpy 页面里的默认大标题，但保留面包屑 */
+.page__header .page__title {
+  display: none;
+}
 
 /* 自定义 tabs 页面的标题样式 */
   .yee-page-title {
