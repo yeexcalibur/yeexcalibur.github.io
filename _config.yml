@@ -17,7 +17,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   
-lang: zh-CN
+lang: en-US
 timezone: Asia/Singapore
 title: "Yee Hsu (Yi Xu) | Architect & Explorer"
 description: >-
