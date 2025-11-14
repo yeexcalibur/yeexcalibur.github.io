@@ -41,13 +41,13 @@ Clinic visit or rescue house visit records are not shown here for now in case ca
   </div>
 </div>
 
-<!-- More 按钮 -->
-<button id="more-btn">More pics>> </button>
-
-<!-- 隐藏的链接 -->
-<div id="more-link" style="display: none;">
-  <a href="https://yeexcalibur.bsky.social" target="_blank">点击这里查看我拍的所有小猫照片</a>
-</div>
-
+<!-- More 按钮：直接跳转到 Bluesky 主页 -->
+<a id="more-btn"
+   class="btn"
+   href="https://bsky.app/profile/yeexcalibur.bsky.social"
+   target="_blank"
+   rel="noopener noreferrer">
+  More pics >>
+</a>
 
 - AI × Architecture（研究方向）
