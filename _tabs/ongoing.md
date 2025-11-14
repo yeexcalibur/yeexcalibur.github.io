@@ -11,33 +11,33 @@ order: 2
 Clinic visit or rescue house visit records are not shown here for now in case causing trauma to high-senstive people (like me at very first time). It was and still is a hard time to see poor animals for me. <br>
 救助站支援记录暂不展示。（以防造成他人创伤）<br>
 
-<div class="grid">
-  <div class="card">
-    <a class="thumb-16x9" href="/assets/ongoing/rescue/cover.jpg" target="_blank">
+<div class="handwork-grid-lg">
+  <div class="tile-card">
+    <a class="tile-16x9" href="/assets/ongoing/rescue/cover.jpg" target="_blank">
       <img src="/assets/ongoing/rescue/1.jpg" alt="Cat 01" loading="lazy">
     </a>
-    <div class="muted" style="margin-top:6px">2023–2025 · Cat Record</div>
+    <div class="tile-caption">2023–2025 · Cat Record</div>
   </div>
 
-  <div class="card">
-    <a class="thumb-16x9" href="/assets/ongoing/rescue/cat-01.jpg" target="_blank">
+  <div class="tile-card">
+    <a class="tile-16x9" href="/assets/ongoing/rescue/cat-01.jpg" target="_blank">
       <img src="/assets/ongoing/rescue/2.jpg" alt="Cat 02" loading="lazy">
     </a>
-    <div class="muted" style="margin-top:6px">2023–2025 · Cat Record</div>
+    <div class="tile-caption">2023–2025 · Cat Record</div>
   </div>
 
-  <div class="card">
-    <a class="thumb-16x9" href="/assets/ongoing/rescue/cat-01.jpg" target="_blank">
+  <div class="tile-card">
+    <a class="tile-16x9" href="/assets/ongoing/rescue/cat-01.jpg" target="_blank">
       <img src="/assets/ongoing/rescue/3.jpg" alt="Cat 03" loading="lazy">
     </a>
-    <div class="muted" style="margin-top:6px">2023–2025 · Cat Record</div>
+    <div class="tile-caption">2023–2025 · Cat Record</div>
   </div>
 
-  <div class="card">
-    <a class="thumb-16x9" href="/assets/ongoing/rescue/cat-01.jpg" target="_blank">
+  <div class="tile-card">
+    <a class="tile-16x9" href="/assets/ongoing/rescue/cat-01.jpg" target="_blank">
       <img src="/assets/ongoing/rescue/4.jpg" alt="Cat 04" loading="lazy">
     </a>
-    <div class="muted" style="margin-top:6px">2023–2025 · Cat Record</div>
+    <div class="tile-caption">2023–2025 · Cat Record</div>
   </div>
 </div>
 
