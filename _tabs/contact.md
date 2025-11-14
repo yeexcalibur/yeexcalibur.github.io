@@ -6,7 +6,7 @@ order: 5
 ---
 
 <h1 class="yee-page-title">
-  Contact
+  联系我
   <span class="yee-page-title__icon"></span>
 </h1>
 
