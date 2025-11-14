@@ -6,7 +6,7 @@ order: 4
 ---
 
 <h1 class="yee-page-title">
-  About
+  关于
   <span class="yee-page-title__icon"></span>
 </h1>
 
