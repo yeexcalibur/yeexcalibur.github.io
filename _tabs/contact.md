@@ -4,4 +4,4 @@ title: Contact
 icon: fas fa-envelope
 order: 5
 ---
-- Email: yxu11@outlook.com
+- Email: <a href="mailto:yxu11@outlook.com" target="_blank">yxu11@outlook.com</a>
