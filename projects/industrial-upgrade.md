@@ -27,15 +27,15 @@ Through precise positioning and technological innovation, the two types of build
 ### Gallery / 图集
 <div class="grid">
   <div class="card">
-    <img src="/assets/portfolio/industrial/1.png" alt="View 1" style="width:100%;border-radius:12px">
+    <img src="/assets/portfolio/industrial/1.png" alt="View 1" style="width:100%;border-radius:12px" loading="lazy">
   </div>
   <div class="card">
-    <img src="/assets/portfolio/industrial/2.png" alt="View 2" style="width:100%;border-radius:12px">
+    <img src="/assets/portfolio/industrial/2.png" alt="View 2" style="width:100%;border-radius:12px" loading="lazy">
   </div>
   <div class="card">
-    <img src="/assets/portfolio/industrial/3.png" alt="View 3" style="width:100%;border-radius:12px">
+    <img src="/assets/portfolio/industrial/3.png" alt="View 3" style="width:100%;border-radius:12px" loading="lazy">
   </div>
     <div class="card">
-    <img src="/assets/portfolio/industrial/4.png" alt="View 4" style="width:100%;border-radius:12px">
+    <img src="/assets/portfolio/industrial/4.png" alt="View 4" style="width:100%;border-radius:12px" loading="lazy">
   </div>
 </div>
