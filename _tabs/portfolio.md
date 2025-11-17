@@ -14,7 +14,7 @@ order: 1
   <div class="card">
     <a href="/projects/wuxi-senior-university/">
       <div class="portfolio-cover">
-        <img src="/assets/portfolio/wuxi/1.png" alt="Wuxi Senior University Renovation">
+        <img src="/assets/portfolio/wuxi/1.png" alt="Wuxi Senior University Renovation" loading="lazy">
       </div>
     </a>
     <h3><a href="/projects/wuxi-senior-university/">Wuxi Senior University Renovation</a></h3>
@@ -25,7 +25,7 @@ order: 1
   <div class="card">
     <a href="/projects/industrial-upgrade/">
       <div class="portfolio-cover">
-        <img src="/assets/portfolio/industrial/1.png" alt="Wuxi Port Customs Supervision Warehouse and Logistics Facility Project">
+        <img src="/assets/portfolio/industrial/1.png" alt="Wuxi Port Customs Supervision Warehouse and Logistics Facility Project" loading="lazy">
       </div>
     </a>
     <h3><a href="/projects/industrial-upgrade/">Wuxi Port Customs Supervision Warehouse and Logistics Facility Project</a></h3>
@@ -36,7 +36,7 @@ order: 1
   <div class="card">
     <a href="/projects/sh-hightech/">
       <div class="portfolio-cover">
-        <img src="/assets/portfolio/shanghai/1.jpg" alt="Shanghai Shanmei High-Tech Incubation and Production Base">
+        <img src="/assets/portfolio/shanghai/1.jpg" alt="Shanghai Shanmei High-Tech Incubation and Production Base" loading="lazy">
       </div>
     </a>
     <h3><a href="/projects/sh-hightech/">Shanghai Shanmei High-Tech Incubation and Production Base</a></h3>
@@ -47,7 +47,7 @@ order: 1
   <div class="card">
     <a href="/projects/others/">
       <div class="portfolio-cover">
-        <img src="/assets/portfolio/other/4.jpg" alt="Other Projects">
+        <img src="/assets/portfolio/other/4.jpg" alt="Other Projects" loading="lazy">
       </div>
     </a>
     <h3><a href="/projects/others/">Other Projects</a></h3>
