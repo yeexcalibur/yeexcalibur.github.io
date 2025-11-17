@@ -27,25 +27,25 @@ Pilot renovation shifting from barrier-free basics to **cognitive activation** v
 ### Gallery / 图集
 <div class="grid">
   <div class="card">
-    <img src="/assets/portfolio/wuxi/1.png" alt="View 1" style="width:100%;border-radius:12px">
+    <img src="/assets/portfolio/wuxi/1.png" alt="View 1" style="width:100%;border-radius:12px" loading="lazy">
   </div>
   <div class="card">
-    <img src="/assets/portfolio/wuxi/2.png" alt="View 2" style="width:100%;border-radius:12px">
+    <img src="/assets/portfolio/wuxi/2.png" alt="View 2" style="width:100%;border-radius:12px" loading="lazy"> 
   </div>
   <div class="card">
-    <img src="/assets/portfolio/wuxi/3.png" alt="View 3" style="width:100%;border-radius:12px">
+    <img src="/assets/portfolio/wuxi/3.png" alt="View 3" style="width:100%;border-radius:12px" loading="lazy">
   </div>
     <div class="card">
-    <img src="/assets/portfolio/wuxi/4.png" alt="View 4" style="width:100%;border-radius:12px">
+    <img src="/assets/portfolio/wuxi/4.png" alt="View 4" style="width:100%;border-radius:12px" loading="lazy">
   </div>
     <div class="card">
-    <img src="/assets/portfolio/wuxi/5.jpg" alt="View 5" style="width:100%;border-radius:12px">
+    <img src="/assets/portfolio/wuxi/5.jpg" alt="View 5" style="width:100%;border-radius:12px" loading="lazy">
   </div>
     <div class="card">
-    <img src="/assets/portfolio/wuxi/6.png" alt="View 6" style="width:100%;border-radius:12px">
+    <img src="/assets/portfolio/wuxi/6.png" alt="View 6" style="width:100%;border-radius:12px" loading="lazy">
   </div>
     <div class="card">
-    <img src="/assets/portfolio/wuxi/7.png" alt="View 7" style="width:100%;border-radius:12px">
+    <img src="/assets/portfolio/wuxi/7.png" alt="View 7" style="width:100%;border-radius:12px" loading="lazy">
   </div>
 </div>
 
