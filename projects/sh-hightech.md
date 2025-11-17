@@ -31,15 +31,15 @@ The masterplan emphasizes sustainable development, energy efficiency, and spatia
 ### Gallery / 图集
 <div class="grid">
   <div class="card">
-    <img src="/assets/portfolio/shanghai/1.jpg" alt="View 1" style="width:100%;border-radius:12px">
+    <img src="/assets/portfolio/shanghai/1.jpg" alt="View 1" style="width:100%;border-radius:12px" loading="lazy">
   </div>
   <div class="card">
-    <img src="/assets/portfolio/shanghai/2.png" alt="View 2" style="width:100%;border-radius:12px">
+    <img src="/assets/portfolio/shanghai/2.png" alt="View 2" style="width:100%;border-radius:12px" loading="lazy">
   </div>
   <div class="card">
-    <img src="/assets/portfolio/shanghai/3.jpg" alt="View 3" style="width:100%;border-radius:12px">
+    <img src="/assets/portfolio/shanghai/3.jpg" alt="View 3" style="width:100%;border-radius:12px" loading="lazy">
   </div>
     <div class="card">
-    <img src="/assets/portfolio/shanghai/4.jpg" alt="View 4" style="width:100%;border-radius:12px">
+    <img src="/assets/portfolio/shanghai/4.jpg" alt="View 4" style="width:100%;border-radius:12px" loading="lazy">
   </div>
 </div>
